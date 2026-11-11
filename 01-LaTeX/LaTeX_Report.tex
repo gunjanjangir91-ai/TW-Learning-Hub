@@ -1,0 +1,269 @@
+
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+% Page settings
+\geometry{
+    margin=1in
+}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Technical Writing}
+\rhead{LaTeX Documentation}
+\cfoot{\thepage}
+
+% Hyperlink settings
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+% Document begins
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+
+    \vspace*{2cm}
+
+    {\Huge\bfseries Technical Documentation\\[0.3cm]
+    Using LaTeX\par}
+
+    \vspace{1.5cm}
+
+    {\Large A Practical Learning Report\par}
+
+    \vspace{2cm}
+
+    \rule{\textwidth}{0.5pt}
+
+    \vspace{1cm}
+
+    {\large Technical Writing Course\par}
+
+    \vspace{0.5cm}
+
+    {\large Academic Session 2026--27\par}
+
+    \vspace{1cm}
+
+    {\large Prepared by: [Your Name]\par}
+
+    \vfill
+
+    {\large November 2026\par}
+
+    \rule{\textwidth}{0.5pt}
+
+\end{titlepage}
+
+% Abstract
+\begin{abstract}
+LaTeX is a powerful document preparation system widely
+used for creating academic papers, technical reports,
+research articles, and mathematical documents.
+
+This report explores the fundamentals of LaTeX, its
+document structure, commonly used commands, mathematical
+expressions, tables, figures, and referencing techniques.
+It also highlights the importance of LaTeX in producing
+professional and well-organized technical documentation.
+\end{abstract}
+
+\newpage
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Section 1
+\section{Introduction to LaTeX}
+
+LaTeX is a document preparation system built on top of
+TeX. It allows users to create professionally formatted
+documents using markup commands.
+
+Unlike traditional word processors, LaTeX separates
+the content of a document from its formatting.
+
+It is commonly used in:
+\begin{itemize}
+    \item Academic research papers
+    \item Technical reports
+    \item Books and articles
+    \item Mathematical and scientific documents
+\end{itemize}
+
+\section{Basic LaTeX Commands}
+
+LaTeX uses commands beginning with a backslash.
+
+Some commonly used commands are:
+
+\begin{itemize}
+    \item \textbackslash section\{\}: Creates a section.
+    \item \textbackslash subsection\{\}: Creates a subsection.
+    \item \textbackslash textbf\{\}: Makes text bold.
+    \item \textbackslash textit\{\}: Makes text italic.
+    \item \textbackslash emph\{\}: Emphasizes text.
+    \item \textbackslash begin\{\} and \textbackslash end\{\}:
+    Define environments.
+\end{itemize}
+
+For example:
+
+\textbf{This is bold text.}
+
+\textit{This is italic text.}
+
+\section{Document Structure}
+
+A basic LaTeX document contains three major parts:
+
+\begin{enumerate}
+    \item Document class declaration.
+    \item Preamble containing packages and settings.
+    \item Document body containing the actual content.
+\end{enumerate}
+
+The commands \texttt{\textbackslash begin\{document\}}
+and \texttt{\textbackslash end\{document\}} mark the
+beginning and end of the document body.
+
+\section{Mathematical Equations}
+
+One of the major advantages of LaTeX is its ability
+to display mathematical expressions clearly.
+
+For example, the quadratic formula is:
+
+\begin{equation}
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{equation}
+
+The summation notation can be represented as:
+
+\begin{equation}
+S = \sum_{i=1}^{n} i
+\end{equation}
+
+These features make LaTeX especially useful for
+scientific and mathematical documentation.
+
+\section{Tables and Figures}
+
+Tables help organize information in a structured way.
+
+\begin{table}[h]
+\centering
+\caption{Common LaTeX Commands}
+\begin{tabular}{ll}
+\toprule
+\textbf{Command} & \textbf{Purpose} \\
+\midrule
+\textbackslash section & Creates a section \\
+\textbackslash title & Defines document title \\
+\textbackslash author & Defines author name \\
+\textbackslash caption & Adds a caption \\
+\textbackslash label & Creates a reference label \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Figures can also be inserted into LaTeX documents
+using the graphicx package.
+
+\begin{figure}[h]
+\centering
+\fbox{
+\begin{minipage}{0.7\textwidth}
+\centering
+\vspace{0.7cm}
+\textbf{LaTeX Document Workflow}
+
+\vspace{0.4cm}
+Write Source Code
+
+$\downarrow$
+
+Compile with LaTeX
+
+$\downarrow$
+
+Generate PDF Document
+\vspace{0.7cm}
+\end{minipage}
+}
+\caption{Basic LaTeX document preparation workflow}
+\label{fig:workflow}
+\end{figure}
+
+As shown in Figure~\ref{fig:workflow}, LaTeX converts
+source code into a formatted document.
+
+\section{References and Bibliography}
+
+References are important in technical writing because
+they acknowledge the sources of information used.
+
+A bibliography can be created using the
+\texttt{thebibliography} environment.
+
+\section{Advantages and Applications}
+
+Some important advantages of LaTeX include:
+
+\begin{itemize}
+    \item Professional document formatting.
+    \item Excellent mathematical typesetting.
+    \item Automatic numbering of sections and figures.
+    \item Easy management of references.
+    \item Consistent formatting throughout documents.
+\end{itemize}
+
+LaTeX is widely used in engineering, computer science,
+mathematics, and scientific research.
+
+\section{Conclusion}
+
+LaTeX is an effective tool for producing structured,
+accurate, and professional technical documents.
+
+Through this practical exercise, we explored its
+document structure, formatting commands, mathematical
+equations, tables, figures, and referencing methods.
+
+Learning LaTeX provides an important foundation for
+creating high-quality academic and technical documents.
+
+\begin{thebibliography}{9}
+
+\bibitem{latex}
+Leslie Lamport,
+\textit{LaTeX: A Document Preparation System},
+Addison-Wesley.
+
+\bibitem{overleaf}
+Overleaf Documentation,
+\url{https://www.overleaf.com/learn}
+
+\bibitem{latexproject}
+The LaTeX Project,
+\url{https://www.latex-project.org/}
+
+\end{thebibliography}
+
+\end{document}
