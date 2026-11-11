@@ -1,0 +1,24 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[0,0],
+"class_student.html":[0,0,0],
+"class_student.html#a3f6770a34042c1c4bfb9e59d29e35d2e":[0,0,0,1],
+"class_student.html#a671f6b115a158653a0f0bece34ea0667":[0,0,0,2],
+"class_student.html#aa07ef7a0e6c934131919a0b1e0bed56d":[0,0,0,3],
+"class_student.html#aba95cc73ad927ab9bdda4b75e73452e1":[0,0,0,0],
+"classes.html":[0,1],
+"files.html":[1,0],
+"functions.html":[0,2,0],
+"functions_func.html":[0,2,1],
+"functions_vars.html":[0,2,2],
+"globals.html":[1,1,0],
+"globals_func.html":[1,1,1],
+"index.html":[],
+"main_8cpp.html":[1,0,0],
+"main_8cpp.html#a08fef0aeb70aa8503b9440b3095f62c8":[1,0,0,2],
+"main_8cpp.html#a7f6895ce61cb60977d49911802fc2abe":[1,0,0,3],
+"main_8cpp.html#ad883c7744e929d2bbd4080ab356a6db3":[1,0,0,1],
+"main_8cpp.html#ad88e3d3cae1cbf2edfbe875d33152de3":[1,0,0,5],
+"main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[1,0,0,4],
+"pages.html":[]
+};
