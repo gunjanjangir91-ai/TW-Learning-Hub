@@ -1,0 +1,232 @@
+
+\documentclass[aspectratio=169,11pt]{beamer}
+
+% Theme and packages
+\usetheme{Madrid}
+\usecolortheme{default}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+% Presentation information
+\title[Technical Writing]{Technical Writing: From Documentation to Collaboration}
+\subtitle{A Practical Overview of Modern Documentation Tools}
+\author{[Your Name]}
+\institute{Technical Writing Course}
+\date{November 2026}
+
+% Custom colors
+\definecolor{deepblue}{RGB}{20,50,90}
+\setbeamercolor{structure}{fg=deepblue}
+
+% Navigation and footer
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\begin{document}
+
+% Slide 1: Title
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Slide 2: Agenda
+\begin{frame}{Presentation Overview}
+    \tableofcontents
+\end{frame}
+
+\section{Introduction}
+
+% Slide 3
+\begin{frame}{What is Technical Writing?}
+    \begin{block}{Definition}
+        Technical writing is the process of communicating
+        complex information in a clear, structured and
+        understandable manner.
+    \end{block}
+
+    \vspace{0.3cm}
+
+    \textbf{Major characteristics:}
+    \begin{itemize}
+        \item Clarity and accuracy
+        \item Logical organization
+        \item Audience-focused communication
+        \item Consistent formatting
+    \end{itemize}
+\end{frame}
+
+\section{Documentation Tools}
+
+% Slide 4
+\begin{frame}{LaTeX: Structured Documentation}
+    \begin{columns}
+
+        \column{0.55\textwidth}
+        \textbf{LaTeX is used for:}
+        \begin{itemize}
+            \item Academic reports
+            \item Research papers
+            \item Mathematical documents
+            \item Technical publications
+        \end{itemize}
+
+        \column{0.4\textwidth}
+        \begin{block}{Example}
+            \[
+                E = mc^2
+            \]
+            Mathematical expressions can be
+            professionally formatted.
+        \end{block}
+
+    \end{columns}
+\end{frame}
+
+% Slide 5
+\begin{frame}{Beamer: Presentation Creation}
+
+    Beamer is a LaTeX document class used to
+    create structured presentations.
+
+    \vspace{0.4cm}
+
+    \begin{block}{Important Features}
+        \begin{itemize}
+            \item Themes and color customization
+            \item Columns and blocks
+            \item Mathematical equations
+            \item Tables, images and diagrams
+            \item Automatic slide numbering
+        \end{itemize}
+    \end{block}
+
+\end{frame}
+
+% Slide 6
+\begin{frame}{Doxygen: Automated Code Documentation}
+
+    Doxygen generates documentation directly from
+    specially formatted source-code comments.
+
+    \vspace{0.3cm}
+
+    \begin{exampleblock}{Example Doxygen Comment}
+        \texttt{@brief Calculates the average marks}
+
+        \texttt{@param marks Array of marks}
+
+        \texttt{@return Average value}
+    \end{exampleblock}
+
+    \textbf{Applications:}
+    \begin{itemize}
+        \item Function documentation
+        \item Class and module references
+        \item HTML documentation generation
+    \end{itemize}
+
+\end{frame}
+
+% Slide 7
+\begin{frame}{Google Docs: Collaborative Writing}
+
+    \begin{columns}
+
+        \column{0.48\textwidth}
+        \textbf{Features}
+        \begin{itemize}
+            \item Real-time editing
+            \item Comments and suggestions
+            \item Version history
+            \item Cloud storage
+        \end{itemize}
+
+        \column{0.48\textwidth}
+        \begin{block}{Key Benefit}
+            Multiple users can contribute
+            to the same document without
+            maintaining separate copies.
+        \end{block}
+
+    \end{columns}
+
+\end{frame}
+
+\section{Version Control}
+
+% Slide 8
+\begin{frame}{Git and GitHub}
+
+    \begin{block}{Git}
+        A distributed version control system
+        used to track changes in files.
+    \end{block}
+
+    \begin{block}{GitHub}
+        A platform for hosting Git repositories
+        and collaborating on projects.
+    \end{block}
+
+    \textbf{Common Git workflow:}
+
+    \centering
+    Working Directory
+    $\rightarrow$ Staging Area
+    $\rightarrow$ Local Repository
+    $\rightarrow$ GitHub
+
+\end{frame}
+
+% Slide 9
+\begin{frame}{Comparison of Documentation Tools}
+
+    \centering
+
+    \small
+    \begin{tabular}{lll}
+        \toprule
+        \textbf{Tool} & \textbf{Main Purpose} & \textbf{Output} \\
+        \midrule
+        LaTeX & Technical documents & PDF \\
+        Beamer & Presentations & PDF \\
+        Doxygen & Code documentation & HTML/PDF \\
+        Google Docs & Collaboration & Online documents \\
+        Git & Version control & Commit history \\
+        GitHub & Repository hosting & Online repository \\
+        \bottomrule
+    \end{tabular}
+
+\end{frame}
+
+% Slide 10
+\begin{frame}{Conclusion}
+
+    \begin{block}{Key Takeaway}
+        Effective technical communication combines
+        structured writing, clear presentation,
+        automated documentation and version control.
+    \end{block}
+
+    \vspace{0.4cm}
+
+    \begin{center}
+        \Large
+        Learn. Document. Collaborate. Improve.
+    \end{center}
+
+\end{frame}
+
+% Final Slide
+\begin{frame}
+    \centering
+    \Huge Thank You!
+
+    \vspace{0.5cm}
+
+    \Large Questions and Discussion
+\end{frame}
+
+\end{document}
