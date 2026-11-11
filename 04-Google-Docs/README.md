@@ -28,3 +28,17 @@ Google Docs is an online word-processing tool used to create, edit, format, and 
 
 ## Learning Outcome
 Learned how to create professional documents and collaborate effectively using Google Docs.
+## 7. Actual Google Docs Practical
+
+A practical document was created using Google Docs to demonstrate document formatting and collaboration features.
+
+The document includes:
+- Title and section headings
+- Heading styles
+- Bulleted lists
+- A formatted table
+- Table of contents
+- Document sharing
+
+**View the actual Google Docs document:**  
+[Technical Writing – Practical Documentation](https://docs.google.com/document/d/1A7idE7HC8AD1MOgozxsIMrD6lsI8_HRnqTBr1yVDivA/edit?usp=sharing)
